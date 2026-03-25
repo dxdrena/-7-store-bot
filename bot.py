@@ -894,21 +894,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-ALTERAÇÕES REALIZADAS:
-
-1. Nome da loja: EgoShop → ¥7|STORE
-2. Suporte: @EgoShopSuporte → @¥7Suporte
-3. Link do bot: t.me/EgoShopInfoBOT → t.me/¥7StoreBot
-4. Chave Pix: egoshop@pix.com → ¥7store@pix.com
-5. Nome do banco de dados: egoshop.db → store.db
-6. Mensagens de boas-vindas: Todas com o novo nome
-
-requirements.txt (mantém o mesmo):
-
-```
-python-telegram-bot==20.7
-```
-
-O bot está 100% funcional com o novo nome ¥7|STORE!
