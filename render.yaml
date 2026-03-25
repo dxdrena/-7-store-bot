@@ -1,0 +1,10 @@
+services:
+  - type: worker
+    name: store-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: 8529101257:AAHVI1e-scNY1nMNyGprmTHzyWCC4U5W00s
+        sync: false
+    plan: free
